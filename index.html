@@ -1,0 +1,931 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./flexboxgrid.css" />
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./splide/dist/css/splide.min.css">
+    <link rel="stylesheet/scss" type="text/css" href="./slider.scss" />
+    <!-- <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        var splide = new Splide(".splide");
+        splide.mount();
+      }); 
+    </script> -->
+    <script type="text/javascript" src="splide/dist/js/splide.min.js"></script>
+  </head>
+  <body>
+    <section class="hero-section">
+      <img src="Svgs/hero-bg1.svg" class="hero-bg-1" alt="menu1" />
+      <nav id="main-header" class="header-flex">
+        <a href="#"><img src="Svgs/Header-logo.svg" alt="Die Kreuzer Höfe"></a>
+        <div>
+          <div id="navbar" style="border: 2px red solid ;" >
+            <div id="mobile-menu-btn" class="menu-btn" href="">
+              <img src="Svgs/svg-menu.svg" alt="menu-icon" width="30px" height="20px" /></div>
+          </div>
+        </div>
+      </nav>
+      <ul class="nav-ul-list">
+        <li class="nav-item"><a class="nav-link" href="index.html">Startseite</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Über uns</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Services</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Kontakt</a></li>
+      </ul>
+
+      <div class="hero-center">
+        <span class="hero-sub-title">ARBEIT. LEBE.</span>
+        <div class="hero-title-block">
+          <h1 class="hero-title">Schreibe</h1>
+          <h1 class="hero-title flex-end">Zukunft.</h1>
+        </div>
+      </div>
+    </section>
+    <section class="work-region">
+      <!-- <div class="container"> -->
+      <div class="section-title">
+        <h2>ARBEITEN IN BONN-DUISDORF</h2>
+      </div>
+      <div class="col-wrapper">
+        <div class="bg-col-4">
+          <h3 class="col-title">HISTORIE</h3>
+          <h3 class="col-title">DER GEBÄUDE</h3>
+          <div class="sub-text max-width-margin">
+            Beständig gut und nachhaltig
+          </div>
+        </div>
+        <div class="bg-col-4">
+          <h3 class="col-title">MODERNE</h3>
+          <h3 class="col-title">ARBEITSWELTEN</h3>
+          <div class="sub-text max-width-margin">
+            Gebäude für jede Möglichkeit
+          </div>
+        </div>
+        <div class="bg-col-4">
+          <h3 class="col-title">WORK- L I F E</h3>
+          <h3 class="col-title">BALANCE</h3>
+          <div class="sub-text max-width-margin">
+            Gesundes Arbeiten und Leben verbinden
+          </div>
+        </div>
+      </div>
+      <!-- </div> -->
+    </section>
+
+    <section class="Zeitgemäßes-wrapper">
+      <div class="col-7-wrapper">
+        <h2 class="section-title title-left">Zeitgemäßes arbeiten</h2>
+        <p class="para-text">
+          Der Campus Rochusstraße steht für ein zeitgemäßes Arbeiten. Neben der
+          Abbildung von klassischen Büro­strukturen haben wir es uns zu Aufgabe
+          gemacht, ­moderne Arbeitswelten sowohl in Ihrer ­Fläche als auch auf
+          den Gemeinschafts-flächen zu ermöglichen. Wir laden Sie dazu ein, in
+          den ansprechend ­gestalteten Freianlagen oder unseren groß­zügig
+          ausgestatteten Foyers zu verweilen.
+        </p>
+      </div>
+      <div class="col-5-wrapper">
+        <img src="Svgs/Zeitarbeiten-svg.svg" alt="work_image" height="500px" />
+      </div>
+    </section>
+
+    <section style="position: relative">
+      <img class="gebäude-vector" src="Svgs/gebäudeteile-bg.svg" alt="vector" />
+      <div class="Gebäude-section">
+        <h1 class="Gebäude-title">Gebäudeteile</h1>
+        <h2 class="section-title font-color">
+          Arbeit braucht Freiraum und Weitblick.
+        </h2>
+        <div class="col-wrapper">
+          <div class="bg-col-4 block-col-4">
+            <text class="small-text">Be Colourful</text>
+            <h3 class="sub-col-title">Kunst</h3>
+            <div class="sub-text">
+              Das Gebäude liegt direkt an der Straßenseite zur Rochusstraße und
+              garantiert damit beste Sichtbarkeit.
+            </div>
+          </div>
+          <div class="bg-col-4 block-col-4">
+            <text class="small-text">Be Natural</text>
+            <h3 class="sub-col-title">Natur</h3>
+            <div class="sub-text">
+              Schöne neue (Arbeits-)Welt: Jeder der sechs begrünten Innenhöfe
+              wird von Büro-einheiten umschlossen, sodass ein
+              Haus-in-Haus-Gefühl entsteht.
+            </div>
+          </div>
+          <div class="bg-col-4 block-col-4">
+            <text class="small-text">Be strong</text>
+            <h3 class="sub-col-title">Sport</h3>
+            <div class="sub-text">
+              In einem gesunden Körper lebt auch ein gesunder Geist. Und geht es
+              bei New Work nicht genau darum, Körper und Geist gleichermaßen zu
+              nähren?
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="gebäude-sub-section">
+      <div class="row middle-xs margin-right" style="padding-left: 200px;">
+        <div class="col-xs-6" >
+          <h1 class="title1">be colorful</h1>
+          <div style="padding-left: 90px; padding-right: 10px">
+            <text class="text-transform-weight">Gebäudeteil A + AIII</text>
+            <h2 class="section-title sub-sec-title">
+              Raum schaffen Für Inspiration.
+            </h2>
+            <p class="para-text">
+              Das Gebäude liegt direkt an der Straßen-seite zur Rochusstraße und
+              garantiert damit beste Sichtbarkeit. Im Inneren eröffnet sich ein
+              modernes Flächen-konzept, denn Arbeitswelten von heute sind nicht
+              mehr graue Lebenszeit, die man vor dem Bildschirm verbringt, sie
+              erfordern mitdenken, kreativ-denken, frei denken. Die Räume von
+              Faktor B bieten großzügige Co-­Working-Spaces im Team und ruhige
+              Rückzugsorte, wenn man mal ganz für sich sein möchte. Die
+              untypisch genittenen Büros laden ein, die ­Gedanken frei schweifen
+              zu lassen – just B(e) colorful!
+            </p>
+          </div>
+        </div>
+        <div class="col-xs-6" >
+          <img
+            src="Images/Gebaude-sub-img1.png"
+            alt="building-image"
+            style=" max-width: 100%;
+            max-height: 100vh;
+            margin: auto;" 
+          />
+        </div>
+      </div>
+      <div class="row position margin-right" style="margin-top: 200px;">
+        <img
+          class="position-bg1"
+          src="Svgs/Gebaude-bg1.svg"
+          alt="leaves-vector"
+        />
+        <div class="col-xs-6">
+          <img
+            src="Images/Gebaude-sub-img2.png"
+            alt="Frau-image"
+            style=" max-width: 100%;
+      max-height: 100vh;
+      margin: auto;" 
+            class="position"
+          />
+        </div>
+        <div class="col-xs-6" style="margin-top: -80px;padding-right: -1rem; ">
+          <h1 class="title1">be natural</h1>
+          <div style="padding-left: 90px; padding-right: 90px">
+            <text class="text-transform-weight">Gebäude A+AI und Höfe</text>
+            <h2 class="section-title sub-sec-title">
+              Gebäude, die auf nachhaltigkeit setzen.
+            </h2>
+            <p class="para-text">
+              Schöne neue (Arbeits-)Welt: Jeder der sechs begrünten Innenhöfe
+              wird von Büroeinheiten umschlossen, sodass ein Haus-in-Haus-Gefühl
+              entsteht. Die Bürogebäude von Morgen sind nicht nur innen wie
+              außen grüne Oasen, sondern tragen durch innovative
+              Nachhaltigkeitskonzepte dazu bei, die Städte klimafreundlicher zu
+              gestalten. Die Bestandsgebäude im Innenhof werden mit großen
+              Photovoltaik­anlagen nachgerüstet, die Sonnenenergie liefern.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row position margin-right" style="padding-left: 200px; margin-top: 150px;">
+        <img
+          class="position-bg2"
+          src="Svgs/Gebaude-bg2.svg"
+          alt="leaves-vector"
+        />
+        <div class="col-xs-6" >
+          <h1 class="title1">be strong</h1>
+          <div style="padding-left: 90px; padding-right: 10px">
+            <text class="text-transform-weight">Kantinengebäude</text>
+            <h2 class="section-title sub-sec-title">
+              alles kompakt an einem Ort vereint.
+            </h2>
+            <p class="para-text">
+              In einem gesunden Körper lebt auch ein gesunder Geist. Und geht es
+              bei New Work nicht genau darum, Körper und Geist gleichermaßen zu
+              nähren? Die Kantine wurde vollständig überarbeitet und strahlt in
+              einem modernen, attraktiven Look. Mit Tischen für die ganze
+              Belegschaft oder dem privaten Gespräch unter Kollegen und
+              Freunden.
+            </p>
+          </div>
+        </div>
+        <div class="col-xs-6" >
+          <img
+            src="Images/Gebaude-sub-img3.png"
+            alt="building-image"
+            style=" max-width: 100%;
+      max-height: 100vh;
+      margin: auto;" 
+            class="position"
+          />
+        </div>
+      </div>
+    </section>
+    <section class="position">
+      <img
+        class="vector-position"
+        src="Images/Details-vector.png"
+        alt="vector"
+      />
+      <div class="details-warpper">
+        <h2 class="section-title title-left">Details</h2>
+        <img src="Images/Detaiils.png" alt="details-table" />
+      </div>
+      <div
+        class="row middle-xs"
+        style="padding-left: 100px; margin-top: 150px; padding-bottom: 100px"
+      >
+        <div class="col-xs-6">
+          <h1 class="title1">Grundrisse</h1>
+          <div style="padding-left: 90px; padding-right: 10px">
+            <h2 class="section-title sub-sec-title">
+              Erdgeschoss Gebäudeteil A + AIII
+            </h2>
+            <text class="text-transform-weight">Beispielplanung</text>
+            <p class="para-text">
+              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+              nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+              erat, sed diam voluptua. At vero eos et accusam et justo duo
+              dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
+              sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit
+              amet, consetetur sadipscing elitr
+            </p>
+          </div>
+        </div>
+        <div class="col-xs-6 splide">
+          <div class="splide__slider">
+            <div class="splide__track">
+              <ul class="splide__list">
+                <li class="splide__slide">
+                  <img src="Images/Slide1.png" alt="slider" height="400px" />
+                </li>
+                <li class="splide__slide">
+                  <img src="Images/Slide1.png" alt="slider" height="400px" />
+                </li>
+                <li class="splide__slide">
+                  <img src="Images/Slide1.png" alt="slider" height="400px" />
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="position">
+      <img class="vector2" src="Images/Intressiert-bg.png" alt="vector2"/>
+      <div class="intressiert-sec">
+        <h1 class="title1">Interessiert?</h1>
+        <p class="int-text">Mehr Infos finden Sie in unserem Exposé</p>
+        <button class="download-btn">Jetzt Downloaden</button>
+      </div>
+    </section>
+
+    <section style="background-color: #F5F0E8;">
+      <img src="Images/area-office.png" alt="office " style=" max-width: 100%;
+      max-height: 100vh;
+      margin: auto;" />
+    </section>
+
+    <section class="gebäude-sub-section">
+        <div class="row">
+          <div class="col-xs-6">
+            <img
+              src="Images/Aussuatung-img.png"
+              alt="halle-image"
+              height="500px"
+            />
+          </div>
+          <div class="col-xs-6" style="margin-top: -80px">
+            <h1 class="title1">Ausstattung</h1>
+            <div style="padding-left: 90px; padding-right: 90px">
+              <text class="text-transform-weight">Möglichkeiten für</text>
+              <h2 class="section-title sub-sec-title">
+                Ihr Office 
+                zum wohlfühlen
+              </h2>
+              <p class="para-text" style="margin-bottom: 50px;">
+                Reperro eici bearund igenia voluptiate volorit es quam. Bus, et aditis adia si re non rem unt es audam sus et experum quod quia consequ aeristi umendig enditesti tem earciam fuga. Idero quo volorio reperum harum enda con re,ficabo. Nam reicipsandae nit liq
+              </p>
+              <text class="text-transform-weight">Ihre Vorteile 
+                im Überblick</text>
+                <ul class="unordered-list" >
+                  <li class="list-item" ><text class="list-text">Vernetzte Anlagenautomation </text></li>
+                  <li class="list-item" >
+                    <p  class="list-text">Sie bekommen ein integriertes Energiemonitoring 
+                      und Energiemanagement</p>
+                  </li>
+                  <li class="list-item" ><p  class="list-text">Eine intelligente Haustechnik, Beleuchtung, Förderungstechnik, Beschattung und Raum-klimaregelung, die wertvolle Energiekosten spart</p></li>
+                <li class="list-item" ><p  class="list-text">E-Ladesäulen, die einen reibungslosen Ablauf 
+                  von Ladung und Energieeinsatz ermöglichen</p></li>
+                </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="padding-top-bottom">
+      <div class="row middle-xs" style="padding-left: 200px;">
+        <div class="col-xs-6" >
+          <h1 class="title1" style="line-height: 48px;margin-bottom: 8px;">Nachhaltigkeit & Lebenszyklus</h1>
+          <div style="padding-left: 90px; padding-right: 10px">
+            <text class="text-transform-weight">Nachhaltigkeit & Lebenszyklus der Gebäude</text>
+            <h2 class="section-title sub-sec-title">
+              Das Bürogebäude  von Morgen
+            </h2>
+            <p class="para-text" style="margin-bottom: 45px;">
+              Aus dem Bestehenden etwas ­Neues schaffen, das gleicher­maßen flexibel wie auch funktional ist, ist unser Anliegen. In Faktor B sind die Übergänge des Alten ins Neue fließend, ganz ohne die ­Spuren der ehemaligen Fabrik je vollständig zu verwischen.
+            </p>
+            <p class="para-text" style="margin-bottom: 50px;" >
+              Nachhaltig schön – jetzt und für morgen.
+              Nachhaltigkeit fängt nicht erst dann an, wenn Solarpanels aufgerüstet werden. Für uns bedeutet nachhaltige Stadtentwicklung, dass wir alte Bestandsgebäude wie die zwei Fabrik- und das Kantinengebäude genau unter die Lupe nehmen und das erhalten, was noch gut und funktional ist. Denn nicht immer muss die Abrissbirne geschwungen werden, nur weil etwas nicht mehr dem neuesten Standard entspricht. Oft genug reicht – mit dem richtigen Know-how und einer mutigen Vision – die gezielte Sanierung, Ergänzung und Aufrüstung des noch gut erhaltenen Bestands. So kann aus dem Alten etwas Neues entstehen, das den Anforderungen der Gegenwart entspricht und der Zukunft gewachsen ist. 
+              Um die Bürogebäude für die Zukunft vorzubereiten, haben wir an den wichtigen Stellen auf Modernisierung gesetzt: Eine große Solaranlage unterstützt die Stromversorgung. Sechs Innenhöfe bieten grüne Oasen zur Entspannung. Auf den über 300 Stellplätzen in Parkhaus, Tiefgarage und in unmittel-barer Nähe des Geländes stehen E-Ladestationen zur Nutzung bereit. Und für alle, die mit dem Fahrrad kommen wollen, sind ausreichend Fahrradstellplätze vorhanden.
+            </p>
+            <button class="sets-btn">Jetzt Plätze sichern</button>
+            
+          </div>
+        </div>
+        <div class="col-xs-6">
+          <img
+            src="Images/Unsplash.png"
+            alt="office-image"
+            style=" max-width: 100%;
+            max-height: 100vh;
+            margin: auto;" 
+          />
+          <div class="image-text">
+          <img
+            src="Images/Meeting.png"
+            alt="meeting-image"
+            style=" max-width: 100%;
+            max-height: 100vh;
+            margin: auto;" 
+          />
+          <div class="bg-col-4 text-image" >
+            <h3 class="col-title">Frischer Wind in</h3>
+            <h3 class="col-title">alten Gemäuern –</h3>
+            <h3 class="col-title">Arbeit, Leben und</h3>
+            <h3 class="col-title">Umwelt in Balance.</h3>
+            </div>  
+        </div>
+        </div>
+      </div>
+      <img class="bulb-vector" src="Images/Lebenszyklus.png" alt="bulb-image"/>
+    </section>
+
+    <section class="padding-top-bottom position" style="background-color: #BAD825;">
+      <div class="row middle-xs" style="padding-left: 200px;">
+        <div class="col-xs-7" >
+          <h1 class="title1" style="line-height: 48px;margin-bottom: 8px;">Historie </h1>
+          <div style="padding-left: 90px; padding-right: 10px">
+            <text class="text-transform-weight">Damals wie heute</text>
+            <h2 class="section-title sub-sec-title">
+              Beständig gut
+            </h2>
+            <div class="para-block">
+            <p class="para-text" style="margin-right: 45px; max-width: 400px;">
+              1949 gründete der ehemalige Technische Direktor der Soennecken-Werke in Bonn, Josef Kreuzer, eine Schreibgerätefabrik. Diese sollte sich in den kommenden Jahrzehnten zu einer der wichtigen Player der Schreibgeräteindustrie entwickeln, der schließlich an einen neuen Standort verlegt wurde. 
+              Über 70 ­Jahre später verwandelt sich das verlassene Fabrik­gelände in einen modernen, lebendigen Bürostandort, der den zeitgemäßen Standards der „New Work“ entspricht. Wo früher Fließbänder und Lagerflächen waren, entstehen heute hochwertige Arbeitsplätze für die Arbeitgeber von Morgen. Durch die sukzessive Modernisierung werden Arbeitswelten geschaffen, die Unternehmen und öffentlichen Mietern zeitgemäßes Flächenpotenzial bieten.
+            </p>
+            <p class="para-text" style="max-width: 400px" >
+              Immer geplant mit dem Faktor Grün und dem Blick in die Zukunft. Denn die neue Arbeitskultur verlangt Flexibilität – und Arbeit und Freizeit in ein gutes, lebens-wertes Gleichgewicht zu bringen. FAKTOR B bietet dafür einen ganz-heitlichen Ansatz.
+
+            Zeitgemäße Projektentwicklung  – 
+            das heißt ein bewusster Umgang mit Ressourcen, Umwelt und Menschen.  
+            Um Ressourcen zu schonen und Co2 einzusparen, haben wir uns bewusst dazu entschieden, die Substanz der Gebäude weitestgehend zu erhalten. 
+            Weil es einfach beständig ist. Und beständig gut.
+
+            </p>
+          </div>
+          </div>
+        </div>
+        <div class="col-xs-5">
+          <div class="right-blocks">
+          <div>
+            <h2 class="history-title">1970</h2>
+            <hr class="line-horizontal"></hr>
+            <p class="sub-history"> Bezog  die  Kugelschreiberfabrik Kreuzer  eine neu gebaute Fabrikationsstätte</p>
+          </div>
+          <div>
+            <h2 class="history-title">1979</h2>
+            <hr class="line-horizontal"></hr>
+            <p class="sub-history">  Übernahm Roteck die Fabrik  unter Fortführung der bisherigen Strategie  im Schul- und Bürobereich.</p>
+          </div>
+          <div>
+            <h2 class="history-title">1987</h2>
+            <hr class="line-horizontal"></hr>
+            <p class="sub-history"> Wurde Roteck von der  Pelikan AG gekauft. Nur zwei Jahre später wurde die Firma zusammen mit zwei anderen Marken nach ­Hannover verlegt. Seitdem liegt das Gelände brach.</p>
+          </div>
+          <div>
+            <h2 class="history-title">2021</h2>
+            <hr class="line-horizontal"></hr>
+            <p class="sub-history"> Revitalisierung durch die   LANDMARKEN AG  als ­modernes  Büroensemble.</p>
+          </div>
+        </div>
+        </div>
+      </div>
+      <img class="pen-vector" src="Images/Historie-bg.png" alt="pen-vector"/>
+    </section>
+
+    <section class="position">
+      <div class="image-text">
+        <img src="Images/Standort1.png" alt="place-image" style=" max-width: 100%;
+      max-height: 100vh;
+      margin: auto; "  />
+        <div class="bg-col-4 black-text" >
+          <h3 class="col-title"> Gönnen Sie sich</h3>
+          <h3 class="col-title">auch während</h3>
+          <h3 class="col-title">der Arbeit einen</h3>
+          <h3 class="col-title">­Perspektivwechsel!</h3>
+          </div>  
+      </div>
+      
+    </section>
+
+    <section class="gebäude-sub-section">
+      
+      <img src="Images/Standort-bg-vector.png" alt="standort-vector" style=" max-width: 100%;
+      max-height: 100vh;
+      margin: auto;"/>
+      <div id="image-carousel" class="splide" style="padding-left: 100px;padding-right: 100px"  >
+        <div class="splide__slider">
+          <div class="splide__track" style="padding-top: 80px;padding-bottom: 80px;">
+            <ul class="splide__list">
+              <li class="splide__slide">
+               <div class="row">
+                  <div class="col-xs-6">
+                    <img
+                      src="Images/Standort2.png"
+                      alt="halle-image"
+                      style=" max-width: 100%;
+            max-height: 100vh;
+            margin: auto;"
+                    />
+                  </div>
+                  <div class="col-xs-6" style="margin-top: -80px">
+                    <h1 class="title1">Standort</h1>
+                    <div style="padding-left: 90px; padding-right: 90px">
+                      <text class="text-transform-weight">Makrolage</text>
+                      <h2 class="section-title sub-sec-title">
+                        Viel grün. nicht  nur in der Umgebung.
+                      </h2>
+                      <p class="para-text" style="margin-bottom: 35px;font-size: 15px">
+                        Der Campus Rochusstraße überzeugt durch eine hervor-ragende Anbind­ung an die Innenstadt und die A 565. 
+                      </p>
+                      <p class="para-text"style="margin-bottom: 12px;" >
+                        Es verkehren acht Buslinien sowie eine S-Bahn­linie an Haltestellen in der unmittelbaren Umgebung. Auch das Umfeld bietet Naherholungs-qualität. 
+                      </p>
+                      <p class="para-text"style="margin-bottom: 12px;">Das direkt angrenzende Messdorfer Feld lädt zu Spaziergängen ein, um die Akkus während der Mittags­pause im Grünen wieder aufzuladen. </p>
+                      <p class="para-text">Wenn die Mittagspause mal nicht für einen Spaziergang, sondern für ein entspanntes Essen bzw. für einen schnellen Einkauf genutzt wird, lassen sich zahlreiche Restaurants und Nahversorger fußläufig erreichen. </p>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="splide__slide">
+           <div class="row">
+                  <div class="col-xs-6">
+                    <img
+                    src="Images/Standort2.png"
+                    alt="halle-image"
+                    style=" max-width: 100%;
+          max-height: 100vh;
+          margin: auto;"
+                  />
+                  </div>
+                  <div class="col-xs-6" style="margin-top: -80px">
+                    <h1 class="title1">Standort</h1>
+                    <div style="padding-left: 90px; padding-right: 90px">
+                      <text class="text-transform-weight">Makrolage</text>
+                      <h2 class="section-title sub-sec-title">
+                        Viel grün. nicht  nur in der Umgebung.
+                      </h2>
+                      <p class="para-text" style="margin-bottom: 35px; font-size: 15px;">
+                        Der Campus Rochusstraße überzeugt durch eine hervor-ragende Anbind­ung an die Innenstadt und die A 565. 
+                      </p>
+                      <p class="para-text"style="margin-bottom: 12px;" >
+                        Es verkehren acht Buslinien sowie eine S-Bahn­linie an Haltestellen in der unmittelbaren Umgebung. Auch das Umfeld bietet Naherholungs-qualität. 
+                      </p>
+                      <p class="para-text"style="margin-bottom: 12px;">Das direkt angrenzende Messdorfer Feld lädt zu Spaziergängen ein, um die Akkus während der Mittags­pause im Grünen wieder aufzuladen. </p>
+                      <p class="para-text">Wenn die Mittagspause mal nicht für einen Spaziergang, sondern für ein entspanntes Essen bzw. für einen schnellen Einkauf genutzt wird, lassen sich zahlreiche Restaurants und Nahversorger fußläufig erreichen. </p>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="splide__slide">
+                <div class="row">
+                  <div class="col-xs-6">
+                    <img
+                      src="Images/Standort2.png"
+                      alt="halle-image"
+                      style=" max-width: 100%;
+                              max-height: 100vh;
+                              margin: auto;"
+                    />
+                  </div>
+                  <div class="col-xs-6" style="margin-top: -80px">
+                    <h1 class="title1">Standort</h1>
+                    <div style="padding-left: 90px; padding-right: 90px">
+                      <text class="text-transform-weight">Makrolage</text>
+                      <h2 class="section-title sub-sec-title">
+                        Viel grün. nicht  nur in der Umgebung.
+                      </h2>
+                      <p class="para-text" style="margin-bottom: 35px;font-size: 15px;">
+                        Der Campus Rochusstraße überzeugt durch eine hervor-ragende Anbind­ung an die Innenstadt und die A 565. 
+                      </p>
+                      <p class="para-text"style="margin-bottom: 12px;" >
+                        Es verkehren acht Buslinien sowie eine S-Bahn­linie an Haltestellen in der unmittelbaren Umgebung. Auch das Umfeld bietet Naherholungs-qualität. 
+                      </p>
+                      <p class="para-text"style="margin-bottom: 12px;">Das direkt angrenzende Messdorfer Feld lädt zu Spaziergängen ein, um die Akkus während der Mittags­pause im Grünen wieder aufzuladen. </p>
+                      <p class="para-text"">Wenn die Mittagspause mal nicht für einen Spaziergang, sondern für ein entspanntes Essen bzw. für einen schnellen Einkauf genutzt wird, lassen sich zahlreiche Restaurants und Nahversorger fußläufig erreichen. </p>
+                    </div>
+                  </div>
+                </div>
+    
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div> 
+    </section>
+     
+    <section>
+          <a href="#"><img src="Images/Map-img.png" alt="map-img" style=" max-width: 100%;
+            max-height: 100vh;
+            margin: auto;" /></a>
+    </section>
+
+    <section class="position">
+      <div class="anbindung-block-wrapper">
+        <h2 class="section-title">
+          Anbindung / Infrastruktur
+        </h2>
+        <div class="anbingung-block">
+          <div>
+            <text>Bushaltestelle  „Rochusstr./Bundes-ministerien Bonn“</text>
+          </div>
+          <div class="right-content">
+            <img src="Svgs/walking-svg.svg" alt="walk-icon" width="15px"/>
+            <text class="minutes">3 Min</text>
+          </div>
+        </div>
+        <div class="anbingung-block">
+          <div>
+            <text>S-Bahn „Bonn Helmholzstraße“ </text>
+          </div>
+          <div class="right-content">
+            <img src="Svgs/walking-svg.svg" alt="walk-icon" width="15px"/>
+            <text class="minutes">11 Min</text>
+          </div>
+        </div>
+        <div class="anbingung-block">
+          <div>
+            <text>Autobahn „A565“ </text>
+          </div>
+          <div class="right-content">
+            <img src="Svgs/car-svg.svg" alt="walk-icon" width="24px"/>
+            <text class="minutes">2 Min</text>
+          </div>
+        </div>
+      </div>
+      <img class="anbindung-vector" src="Images/Anbindung-vector.png" alt="vector3"  />
+    </section>
+
+    <section class="form-section" >
+      
+        <h1 class="title1 form-title" >Wie können wir  Sie erreichen? </h1>
+        <div class="row" style="align-items: center;">
+          <div class="col-xs-8" >
+            <div style="padding-left: 90px">
+              <p class= "form-para-text" >
+                Kontaktieren Sie mich gern. Ich freue mich über Ihre Anfrage 
+                und berate Sie gerne bei Fragen zu diesem Projekt. 
+              </p>
+              <form>
+              <div class="row">
+                <div class="col-xs-3" style="margin-bottom: 20px;">
+                  <label class="para-text" >Ich möchte…</label>
+                  <select class="input-box" id="anrufen-wählen" name="anrufen" size="1">
+                  <option value="Einen Rückruf">Einen Rückruf</option>
+                  <option value="Einen Rückruf1">Einen Rückruf1</option>
+                  <option value="Einen Rückruf2">Einen Rückruf2</option>
+                  <option value="Einen Rückruf3">Einen Rückruf3</option>
+                  </select>
+                </div>
+              </div>
+           
+              <div class="row" style="margin-bottom: 20px;">
+                <div class="col-xs-6" >
+                  <div class="flex-form-input">
+                    <label class="para-text" for="Vname">Vorname*</label>
+                    <input class="input-box" type="text" id="Vname" name="Vname" value="" placeholder="Vorname" required>
+                  </div>
+                </div>
+                <div class="col-xs-6" >
+                  <div class="flex-form-input">
+                    <label class="para-text" for="Nname">Nachname*</label>
+                    <input class="input-box" type="text" id="Nname" name="Nname" value="" placeholder="Nachname" required>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row" style="margin-bottom: 20px;">
+                <div class="col-xs-6" >
+                  <div class="flex-form-input">
+                    <label class="para-text" for="Nummer">Telefonnummer*</label>
+                    <input class="input-box" type="tel" id="Nummer" name="Nummer" value="" placeholder="Telefonnummer" required>
+                  </div>
+                </div>
+                <div class="col-xs-6" >
+                  <div class="flex-form-input">
+                    <label class="para-text" for="Email">E-Mail*</label>
+                    <input class="input-box" type="email" id="Email" name="Email" value="" placeholder="E-Mail-Adresse" required>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row" style="margin-bottom: 20px;">
+                <div class="col-xs-12" >
+                  <div class="flex-form-input">
+                    <label class="para-text" for="Anmerkungen">Anmerkungen</label>
+                    <textarea class="input-box" id="Anmerkungen" name="Anmerkungen" style="height:100px"></textarea>
+                  </div>
+                </div>
+              </div>
+
+              <p style="font-size: 12px;">* Erforderliche Angaben</p>
+
+                <input style="background-color: transparent;" type="radio" id="newsletter" name="newsletter" required>
+                <label style="font-size: 12px;">Ich möchte die aktuellen Projekte als einer der Ersten per Newsletter erhalten. Hiermit bestätigen Sie die Übermittlung Ihrer Daten an die Landmarken AG. Ihre Daten werden bis zu Ihrem Widerruf bei uns gespeichert. Weitere Informationen zum Datenschutz finden Sie in unserer Datenschutzerklärung. *</label>
+              
+                <div class="row">
+                  <input class="Absenden-btn" type="submit" value="Absenden">
+                </div>
+              </form>
+            </div>
+          </div>
+
+          <div class="col-xs-4">
+            <div class="right-blocks" style="align-items: flex-start;">
+              <h2 class="Vertrieb-title ">
+                Vertrieb
+              </h2>
+              <p>LANDMARKEN AG </p>
+              <p>Hohe Straße 8-10</p>
+              <p>40213 Düsseldorf</p>
+              <p style="margin-top: 15px;">Ansprechpartner:</p>
+              <p>Kai Kraatz</p>
+              <p>M. +49 151 18000101</p>
+              <a style="color: white;" href="#">Faktor @corealis.de</a>
+              <a style="color: white;" href="#">www.corealis.de</a>
+            </div>
+          </div>
+        </div> 
+     
+    </section>
+
+    <section class="padding-top-bottom position">
+      <div class="row">
+        <div class="col-xs-6">
+          <img
+            src="Images/Landmark.png"
+            alt="halle-image"
+            style=" max-width: 100%;
+            max-height: 100vh;
+            margin: auto;"
+          />
+        </div>
+        <div class="col-xs-6">
+            <text class="text-transform-weight">Der Projektentwickler</text>
+            <h2 class="section-title sub-sec-title">
+              Wir entwickeln 
+              die Zukunft der Städte.
+            </h2>
+            <p class="para-text" style="margin-bottom: 50px;max-width:650px ;">
+              „Was wir anfassen, wird zum Erfolg.“ Das schafft nur ein Team, das die Offenheit und Neugierde besitzt, ungewöhnliche Trends ernst zu nehmen. Wir prüfen viele Faktoren, schauen in die Zukunft, reden mit vielen Menschen. Sammeln Erfahrungen, Kommunizieren. Dazu kommt ein gutes Gespür für faszinierende zeitgenössische Architektur. 
+            </p>
+            <img src="Images/Landmarken-symbol.png" alt="landmark" style="width: 200px; margin-bottom: 20px;" >
+            <button class="sets-btn" style="display: block;">Zur Unternehmensseite</button>
+        </div>
+      </div>
+
+      <img class="landmarken-vector" src="Images/Landmarken-vector.png" alt="vector4">
+
+      <div class="kontakt-block">
+        <h1 class="title1" style="text-align: center;">Wir freuen uns auf Sie.</h1>
+        <div class="row middle-xs" >
+          <div class="col-xs-4">
+            <img src="Images/Mara Essers.png" alt="frau-essers">
+            <text class="text-transform-weight">Mara Essers</text>
+            <p class="para-text" style="margin-bottom: 30px;max-width:650px ;">
+              Projektmarketing
+              T: +49 (0)241 1895-154
+            </p>
+            <button class="sets-btn">Kontakt aufnehmen</button>
+          </div>
+          <div class="col-xs-4">
+            <img src="Images/Kai Kraatz.png" alt="herr-Kraatz">
+            <text class="text-transform-weight">Mara Essers</text>
+            <p class="para-text" style="margin-bottom: 30px;max-width:650px ;">
+              Projektmarketing
+              T: +49 (0)241 1895-154
+            </p>
+            <button class="sets-btn">Kontakt aufnehmen</button>
+          </div>
+          <div class="col-xs-4">
+            <img src="Images/Frederike Krinn.png" alt="frau-Krinn" style="position: relative">
+            <text class="text-transform-weight">Mara Essers</text>
+            <p class="para-text" style="margin-bottom: 30px;max-width:650px ;">
+              Projektmarketing
+              T: +49 (0)241 1895-154
+            </p>
+            <button class="sets-btn">Kontakt aufnehmen</button>
+          </div>
+        </div>
+
+        <div class="news-block">
+            <h1 class="title1" style="text-align: center;">Aktuelles</h1>
+            <button class="sets-btn">Alle News</button>
+        </div>
+          <div class="row">
+            <div class="col-xs-5">
+              <div class="left-content position">
+                <div>
+                  <h2 class="section-title sub-sec-title">
+                    New Work – Die neue Art zu arbeiten.
+                  </h2>
+                  <p class="para-text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore</p>
+                </div>
+                <div style="margin-top: auto;">
+                  <p style="font-size:12px;margin-bottom: 8px;" >9.Juli 2020</p>
+                  <hr class="hr-line"></hr>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-7">
+              <img src="Images/New-work1-img.png" alt="office-area" style=" max-width: 100%;
+              max-height: 100vh;
+              margin: auto;"/>
+            </div>
+          </div>
+
+          <div style="margin-top: 50PX;">
+            <div class="row">
+    
+              <div class="col-xs-4">
+                <div class="left-content position">
+                  <div>
+                    <div class="position">
+                      <img src="Images/New-work2-img.png" alt="bulb-on-hand" style=" max-width: 100%;
+                      max-height: 100vh;
+                      margin: auto;"/>
+                      <a class="video-btn" href="#">
+                        <img style="width: 50px;height: 50px;" src="Svgs/Video-play-btn.svg" alt="play-btn">
+                      </a>
+                    </div>
+                    <h2 class="section-title sub-sec-title">
+                      New Work –  Wie arbeiten
+                    </h2>
+                    <p class="para-text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore</p>
+                  </div>
+                  <div style="margin-top: auto;">
+                    <p style="font-size:12px;margin-bottom: 8px;" >9.Juli 2020</p>
+                    <hr class="hr-line"></hr>
+                  </div>
+                </div>
+              </div>
+    
+              <div class="col-xs-4">
+                <div class="left-content">
+                  <div>
+                    <div class="position">
+                      <img src="Images/New-work3-img.png" alt="bulb-on-hand" style=" max-width: 100%;
+                      max-height: 100vh;
+                      margin: auto;" />
+                      <a href="#" class="video-btn" >
+                        <img style="width: 50px;height: 50px;" src="Svgs/Video-play-btn.svg" alt="play-btn">
+                      </a>
+                    </div>
+                    <h2 class="section-title sub-sec-title">
+                      Lorem ipsum dolor sit
+                    </h2>
+                    <p class="para-text" style="margin-bottom: 20px;">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore</p>
+                  </div>
+                  <div style="margin-top: auto;">
+                    <p style="font-size:12px;margin-bottom: 8px;" >9.Juli 2020</p>
+                    <hr class="hr-line"></hr>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-xs-4">
+                <div class="left-content">
+                  <div class="position">
+                    <img src="Images/New-work4-img.png" alt="bulb-on-hand" style=" max-width: 100%;
+                    max-height: 100vh;
+                    margin: auto;" />
+                    
+                    <h2 class="section-title sub-sec-title">
+                      Lorem ipsum dolor sit
+                    </h2>
+                    <p class="para-text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore</p>
+                  </div>
+                  <div style="margin-top: auto;">
+                    <p style="font-size:12px;margin-bottom: 8px;" >9.Juli 2020</p>
+                    <hr class="hr-line"></hr>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="project-block">
+            <div>
+              <p class="para-text">Das könnte Sie auch interessieren</p>
+              <h2 class="section-title sub-sec-title">
+                Weitere Projekte
+              </h2>
+            </div>
+            <div>
+              <button class="sets-btn">Projekte Anzeigen </button>
+            </div>
+        </div>
+
+        <div class="row">
+          <div class="col-xs-4">
+            <div class="project-site1">
+              <h3 class="projeckt-title">Be.Cause</h3>
+              <p style="font-size:12px ;" >Bochum</p>
+            </div>
+          </div>
+          <div class="col-xs-4">
+            <div class="project-site2">
+              <h3 class="projeckt-title">Hafenforum</h3>
+              <p style="font-size:12px ;" >Dortmund</p>
+            </div>
+          </div>
+          <div class="col-xs-4">
+            <div class="project-site3">
+              <h3 class="projeckt-title">Moringa</h3>
+              <p style="font-size:12px ;" >Hamburg</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+  </section>
+
+  <footer class="footer-section">
+    <div>
+      <a href="#"><img src="Svgs/Footer-logo.svg" alt="Die Kreuzer Höfe"></a>
+      <ul class="footer-unoredre-list">
+          <li>Landmarken AG</li>
+          <li>|</li>
+          <li>Karmeliterhöfe</li>
+          <li>|</li>
+          <li>Karmeliterstraße 10</li>
+          <li>|</li>
+          <li>52064 Aachen</li>
+          <li>T. +49 (0)241 1895-100</li>
+          <li>|</li>
+          <li>F. +49 (0)241 1895-199</li>
+          <li>|</li>
+          <li><a href="#">info@moringa.de</a></li>
+      </ul>
+      <div>
+        <a style="margin-right: 10px;" href="#"><img src="Svgs/Instagram.svg" alt="instagram-logo"/></a>
+        <a href="#"><img src="Svgs/LinkedIn.svg" alt="linedIn-logo"></a>
+      </div>
+      <ul class=" impressum-list">
+        <li><a href="#">Impressum</a></li>
+        <li>•</li>
+        <li><a href="#">Datenschutz</a></li>
+      </ul>
+      <p style="opacity: 80%;">Copyright © 2021 Landmarken AG, All rights reserved</p>
+    </div>
+  </footer>
+    
+
+    <script>
+      var splide = new Splide(".splide");
+      splide.mount();
+    </script>
+    <script>
+      new Splide( '#image-carousel' ).mount();
+    </script>
+    <script src="script.js"></script>
+  </body>
+</html>
